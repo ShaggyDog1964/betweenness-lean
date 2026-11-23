@@ -16,3 +16,23 @@ name = "REU"
 
 [[lean_lib]]
 name = "K4"
+
+[[lean_lib]]
+name = "Conv"
+globs = ["Conv", "Conv.+"]
+
+[[lean_lib]]
+name = "Q1"
+globs = ["Q1.+"]
+
+[[lean_lib]]
+name = "Odds"
+globs = ["Odds.+"]
+
+[[lean_lib]]
+name = "Q2CL"
+globs = ["Q2CL.+"]
+
+[[lean_lib]]
+name = "Q3L"
+globs = ["Q3L.+"]
