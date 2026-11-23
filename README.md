@@ -1,11 +1,11 @@
 # betweenness-lean
 
-Lean 4 formalization accompanying Noah Koike Smith, "Axioms That Do Not Combine: Finite Tests
-for Betweenness and Its Two Halves" (2026). It contains machine-checked proofs of the results
-that rest on the longest arguments of the paper, together with the script that performs the
-exact computation used in the proof of the separation bound. The developments on lotteries
-define the class of betweenness preferences directly from the axioms of the paper; they do
-not assume a utility representation or the linearity of indifference sets.
+Lean 4 formalization accompanying Noah Koike Smith, "Axioms That Do Not Combine" (2026). It
+contains machine-checked proofs of the results that rest on the longest arguments of the
+paper, together with the script that performs the exact computation used in the proof of the
+separation bound. The developments on lotteries define the class of betweenness preferences
+directly from the axioms of the paper; they do not assume a utility representation or the
+linearity of indifference sets.
 
 ## Verified results
 
@@ -244,7 +244,7 @@ of the paper is the author's responsibility.
 ```bibtex
 @unpublished{smith2026axioms,
   author = {Smith, Noah Koike},
-  title  = {Axioms That Do Not Combine: Finite Tests for Betweenness and Its Two Halves},
+  title  = {Axioms That Do Not Combine},
   year   = {2026},
   note   = {Lean 4 formalization: https://github.com/ShaggyDog1964/betweenness-lean}
 }
